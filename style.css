@@ -169,6 +169,11 @@ body{
     opacity: 0;
 
 }
+.compre-ja .btn-plataforma .plataformas li input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 .compre-ja .btn-plataforma .plataformas.ativo{
 display: flex;
 opacity: 1;

@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA</title>
     
+    <title>GTA</title>
+
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css"> 
@@ -31,19 +33,19 @@
                     <a href="#comprar">Comprar</a>
                 </li>
                 <li>
-                    <a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="/image/icone-link.svg" alt="Icone de link de suporte"></a>
+                    <a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="./image/icone-link.svg" alt="Icone de link de suporte"></a>
                     
                 </li>
             </ul>
         </nav>
     </header>
     <main class="home" id="home">
-        <img class="imagem-fundo" src="image/bg-main.png"
+        <img class="imagem-fundo" src="./image/bg-main.png"
             alt="Personagem masculino de GTA ao lado de um carro esportivo">
         <div class="informacoes">
             <div class="lista-de-jogos">
-                <img src="image/logo-gta-v.svg" alt="Logo GTA V">
-                <img src="image/logo-gta-online.svg" alt="Logo GTA V Online">
+                <img src="./image/logo-gta-v.svg" alt="Logo GTA V">
+                <img src="./image/logo-gta-online.svg" alt="Logo GTA V Online">
             </div>
             <h1 class="titulo">Já disponível para Playstation 5 e Xbox Series X|S</h1>
             <p class="texto">Experimente os fenômenos de entretenimento Grand Theft Auto V e GTA Online</p>
@@ -54,7 +56,7 @@
     <section class="compre-ja" id="comprar">
         <h2 class="titulo">Compre já</h2>
         <div class="cartao">
-            <img class="capa-do-jogo" src="image/gta5.jpg" alt="Capa do jogo GTA V">
+            <img class="capa-do-jogo" src="./image/gta5.jpg" alt="Capa do jogo GTA V">
             <div class="informacoes">
                 <h3>Grand Theft Auto V</h3>
                 <p>
@@ -62,19 +64,23 @@
                 </p>
                 <ul class="plataformas">
                     <li>
-                        <img src="image/logo-ps5.svg" alt="Logo Ps5">
+                        <img src="./image/logo-ps5.svg" alt="Logo Ps5">
                     </li>
                     <li>
-                        <img src="image/logo-xbox-series-s.svg" alt="logo Xbox-series X|S">
+                        <img src="./image/logo-xbox-series-s.svg" alt="logo Xbox-series X|S">
                     </li>
                     <li>
-                        <img src="image/logo-ps4.svg" alt="Logo Ps4">
+                        <img src="./image/logo-ps4.svg" alt="Logo Ps4">
                     </li>
                     <li>
-                        <img src="image/logo-xbox-one.svg" alt="Logo Xbox One">
+                        <img src="./image/logo-xbox-one.svg" alt="Logo Xbox One">
                     </li>
                     <li>
-                        <img src="image/logo-pc.svg" alt="Logo PC">
+                        <img src="./image/logo-pc.svg" alt="Logo PC">
+                    </li>
+
+                    <li>
+                        <img src="./image/nintendo_logo_icon_147258.svg" alt="">
                     </li>
                 </ul>
             </div>
@@ -82,25 +88,50 @@
         <button class="btn-plataforma">
             Selecione a plataforma
             <ul class="plataformas">
+
                 <li>
-                    <img src="image/logo-ps5.svg" alt="Logo Ps5">
+                    <input type="radio" name="plataforma" id="ps5"
+                        data-link="https://store.playstation.com/pt-br/product/UP1004-PPSA03420_00-GTAOANDSPUPGRADE">
+                    <label for="ps5">
+                        <img src="./image/logo-ps5.svg" alt="Logo Ps5">
+                    </label>
                 </li>
                 <li>
-                    <img src="image/logo-xbox-series-s.svg" alt="logo Xbox-series X|S">
+                    <input type="radio" name="plataforma" id="xbox-series-s"
+                        data-link="https://www.xbox.com/pt-br/games/store/grand-theft-auto-v-xbox-series-x-s/9nxmbtb02zsf">
+                <label for="xbox-series-s">
+                        <img src="./image/logo-xbox-series-s.svg" alt="Logo Xbox-series X|S">
+                    </label>
                 </li>
                 <li>
-                    <img src="image/logo-ps4.svg" alt="Logo Ps4">
+                    <input type="radio" name="plataforma" id="ps4"
+                        data-link="https://store.playstation.com/pt-br/product/UP1004-CUSA00419_00-PREMIUMPACKOG001">
+                    <label for="ps4">
+                        <img src="./image/logo-ps4.svg" alt="Logo Ps4">
+                    </label>
                 </li>
                 <li>
-                    <img src="image/logo-xbox-one.svg" alt="Logo Xbox One">
+                    <input type="radio" name="plataforma" id="xbox-one"
+                        data-link="https://www.xbox.com/pt-BR/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH/0001"
+                        >
+                    <label for="xbox-one">
+                        <img src="./image/logo-xbox-one.svg" alt="Logo Xbox One">
+                    </label>
                 </li>
                 <li>
-                    <img src="image/logo-pc.svg" alt="Logo PC">
+                    <input type="radio" name="plataforma" id="pc"
+                        data-link="https://store.epicgames.com/pt-BR/p/grand-theft-auto-v"
+                        >
+                    <label for="pc">
+                        <img src="./image/logo-pc.svg" alt="Logo PC">
+                    </label>
                 </li>
+                
+                
             </ul>
         </button>
     </section>
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 
